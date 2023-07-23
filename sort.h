@@ -29,4 +29,6 @@ int lomuto_partition(int *array, int low, int high);
 void shell_sort(int *array, size_t size);
 void cocktail_sort_list(listint_t **list);
 void counting_sort(int *array, size_t size);
+void merge_sort(int *array, size_t size);
+void merge(int *array, size_t left, size_t mid, size_t right);
 #endif
